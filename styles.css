@@ -233,6 +233,9 @@ footer .social img {
   #skills {
     padding: 30px 100px;
   }
+  footer{
+    background-size: 20%;
+  }
 }
 
 /* large tablets & laptop styles */
@@ -260,11 +263,38 @@ footer .social img {
   .site-nav ul li {
     margin-left: 20px;
   }
-  .welcome-text{
+  .welcome-text {
     align-self: center;
   }
-  #welcome{
+  #welcome {
     padding-bottom: 40px;
+  }
+  .projects a:nth-child(1) {
+    grid-column: 2/4;
+  }
+  .projects a:nth-child(2) {
+    padding-top: 140px;
+    grid-column: 4/6;
+  }
+  .projects a:nth-child(3) {
+    grid-column: 6/8;
+  }
+  .projects a * {
+    max-width: 80%;
+    margin: 10px 10%;
+  }
+  #skills{
+    padding: 20px 30px;
+  }
+  #skills ul{
+    margin: 40px auto;
+  }
+  #skills li {
+    grid-column: 2 span;
+  }
+  footer{
+    padding: 40px 20px;
+    background-size: 25%;
   }
 }
 
