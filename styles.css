@@ -45,7 +45,7 @@ textarea {
   padding: 10px 16px;
   border-radius: 20px;
   border: 2px solid #9893d8;
-  columns: #f2f2f2;
+  color: #cccccc;
 }
 
 /* fonts */
@@ -75,6 +75,7 @@ h2 {
 }
 h4 {
   font-size: 1.1em;
+  text-align: center;
 }
 .leading {
   font-size: 1.1em;
@@ -204,6 +205,8 @@ footer .social img {
 
 /* small tablet styles */
 @media screen and (min-width: 620px) {
+  h4 {
+    padding: 0 10% 0 0;}
   .welcome-text {
     grid-column: 1/5;
   }
